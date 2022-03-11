@@ -14,6 +14,12 @@ même si ce n'est pas tout à fait exact. mycoolWord est spécifié comme étant
 */
 String mycoolWord = "other antelope";
 
+int nbr_int = 45;
+
+double nbr_double = 23.4;
+
+bool nbr_bool = false;
+
 // Programme principal
 void main(List<String> args) {
   // rar x
@@ -29,7 +35,7 @@ void main(List<String> args) {
 
   // Nous pouvons maintenant réaffecter à mycoolWord une autre valeur de type String.
 
-  print(mycoolWord);
+  print('Chaine de caracteur : $mycoolWord');
 
   // Mais, nous ne pouvons pas attribuer un non-String à mycoolWord.
 
@@ -48,4 +54,8 @@ void main(List<String> args) {
     pour le langage et peuvent être décrits avec des littéraux. Ce sont des entiers, des nombres à virgule flottante, des chaînes, des booléens, des listes et des cartes. 
     Nous avons déjà vu quelques exemples d'entiers et de chaînes. Nous en apprendrons plus dans ce chapitre sur les deux. 
     Les listes et les Maps sont le sujet principal et des booléens */
+
+  print('Nombre intier :  $nbr_int');
+  print('Nombre a vergule : $nbr_double');
+  print('Nombre boolean : $nbr_bool');
 }
