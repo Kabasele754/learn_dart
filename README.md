@@ -102,3 +102,21 @@ La technologie de compilateur de Dart vous permet d'exécuter du code de différ
 
 ![Dart-platforms](https://github.com/Kabasele754/learn_dart/assets/67704765/7d0b1bff-19c5-4e73-a3c1-269b5316c0f3)
 
+Le framework Flutter est une boîte à outils d'interface utilisateur multiplateforme populaire alimentée par la plate-forme Dart, et qui fournit des outils et des bibliothèques d'interface utilisateur pour créer des expériences d'interface utilisateur qui s'exécutent sur iOS, Android, macOS, Windows, Linux et le Web.
+
+Dart Native (code machine JIT et AOT)
+Pendant le développement, un cycle de développement rapide est essentiel pour l'itération. La machine virtuelle Dart offre un compilateur juste-à-temps (JIT) avec une recompilation incrémentielle (permettant le rechargement à chaud), des collections de métriques en direct (alimentant DevTools ) et une prise en charge de débogage riche.
+
+Lorsque les applications sont prêtes à être déployées en production, que vous les publiiez sur une boutique d'applications ou que vous les déployiez sur un backend de production, le compilateur Dart à l'avance (AOT) peut être compilé en code machine ARM ou x64 natif. Votre application compilée par AOT se lance avec un temps de démarrage court et cohérent.
+
+Le code compilé par AOT s'exécute dans un environnement d'exécution Dart efficace qui applique le système de type Dart sonore et gère la mémoire à l'aide d'une allocation d'objet rapide et d'un ramasse-miettes générationnel .
+
+Dart Web (développement et production JavaScript)
+
+Dart Web permet d'exécuter du code Dart sur des plates-formes Web alimentées par JavaScript. Avec Dart Web, vous compilez le code Dart en code JavaScript, qui s'exécute à son tour dans un navigateur, par exemple, V8 dans Chrome .
+
+Dart web contient deux modes de compilation :
+
+  -  Un compilateur de développement incrémental permettant un cycle de développement rapide
+  -  Un compilateur de production optimisant qui compile le code Dart en JavaScript rapide, compact et déployable. Ces efficacités proviennent de techniques telles que l'élimination des codes morts.
+
