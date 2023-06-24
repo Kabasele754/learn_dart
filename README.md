@@ -140,7 +140,7 @@ Il existe plusieurs façons d'installer une fléchette sur votre système. Vous 
 SDK de Dart ,
 Code VS ou d'autres éditeurs comme Andoid studio, Intellij [Nous utiliserons VS Code ici].
 
-## Installation de Windows Dart
+## Installation de Dart sur Windows 
 
 Suivez les instructions ci-dessous pour installer une fléchette sur le système d'exploitation Windows.
 
@@ -151,4 +151,23 @@ T-  éléchargez le SDK Dart à partir [d'ici](https://dart.dev/get-dart/archive
 -  Ajoutez C:\dart-sdk\bin à votre variable d'environnement. Regardez la vidéo ci-dessous pour être plus clair.
 -  Ouvrez l'invite de commande et tapezdart --versionpour le vérifier.
 -  InstallerCode VSet Ajouter une extension de fléchette.
+
+Remarque : Dart SDK fournit les outils pour compiler et exécuter le programme Dart.
+
+## Installation de Dart sur Mac
+
+-  Installer Homebrew à partir [d'ici](https://brew.sh/).
+-  Taper ```brew tap dart-lang/dart ``` dans le  terminal.
+-  Taper ```brew install dart``` dans le terminal.
+
+### Homebrew Install Command
+
+Copiez et collez cette commande sur votre terminal pour installer Homebrew.
+
+``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
+Pour définir le chemin homebrew, copiez et collez cette commande sur votre terminal.
+
+
+``` export PATH=/opt/homebrew/bin:$PATH```
 
