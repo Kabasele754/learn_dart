@@ -164,10 +164,23 @@ Remarque : Dart SDK fournit les outils pour compiler et exécuter le programme D
 
 Copiez et collez cette commande sur votre terminal pour installer Homebrew.
 
-``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 Pour définir le chemin homebrew, copiez et collez cette commande sur votre terminal.
 
 
-``` export PATH=/opt/homebrew/bin:$PATH```
+``` export PATH=/opt/homebrew/bin:$PATH
+```
+
+### Installation de Dart sur Linux
+
+Pour installer une fléchette sur Linux, ouvrez votre terminal et copiez/collez les commandes ci-dessous.
+
+```
+sudo apt-get update
+sudo apt-get install apt-transport-https
+wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/dart.gpg
+echo 'deb [signed-by=/usr/share/keyrings/dart.gpg arch=amd64] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main' | sudo tee /etc/apt/sources.list.d/dart_stable.list
+```
 
