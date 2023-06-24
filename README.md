@@ -164,13 +164,15 @@ Remarque : Dart SDK fournit les outils pour compiler et exécuter le programme D
 
 Copiez et collez cette commande sur votre terminal pour installer Homebrew.
 
-``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Pour définir le chemin homebrew, copiez et collez cette commande sur votre terminal.
 
 
-``` export PATH=/opt/homebrew/bin:$PATH
+```
+export PATH=/opt/homebrew/bin:$PATH
 ```
 
 ### Installation de Dart sur Linux
