@@ -146,7 +146,7 @@ Suivez les instructions ci-dessous pour installer une fléchette sur le système
 
 Etapes:
 
-T-  éléchargez le SDK Dart à partir <a href=" https://dart.dev/get-dart/archive/" target="_blank">d'ici</a>.
+T-  éléchargez le SDK Dart à partir [d'ici](https://dart.dev/get-dart/archive/).
 -  Copiez le dossier dart-sdk sur votre lecteur C.
 -  Ajoutez C:\dart-sdk\bin à votre variable d'environnement. Regardez la vidéo ci-dessous pour être plus clair.
 -  Ouvrez l'invite de commande et tapezdart --versionpour le vérifier.
