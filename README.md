@@ -92,3 +92,13 @@ De plus, les éditeurs tiers et la communauté au sens large publient des millie
   -  compression
 
 Pour voir une série d'exemples de travail mettant en vedette les bibliothèques principales de Dart, faites le tour de la bibliothèque . Pour trouver des API supplémentaires, consultez la page des packages couramment utilisés .
+
+Les plates-formes Dart
+La technologie de compilateur de Dart vous permet d'exécuter du code de différentes manières :
+
+-  Plate-forme native : pour les applications ciblant les appareils mobiles et de bureau, Dart inclut à la fois une machine virtuelle Dart avec une compilation juste-à-temps (JIT) et un compilateur anticipé (AOT) pour la production de code machine.
+
+-  Plateforme Web : Pour les applications ciblant le Web, Dart peut compiler à des fins de développement ou de production. Son compilateur Web traduit Dart en JavaScript.
+
+![Dart-platforms](https://github.com/Kabasele754/learn_dart/assets/67704765/7d0b1bff-19c5-4e73-a3c1-269b5316c0f3)
+
