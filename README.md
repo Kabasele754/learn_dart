@@ -61,3 +61,34 @@ class Point {
   bool get isInsideUnitCircle => x * x + y * y <= 1;
 }
 ```
+
+# Les bibliothèques dart
+Dart dispose d'un riche ensemble de bibliothèques de base , fournissant les éléments essentiels pour de nombreuses tâches de programmation quotidiennes :
+
+-  Types, collections et autres fonctionnalités de base intégrés pour chaque programme Dart ( dart:core)
+-  Types de collection plus riches tels que les files d'attente, les listes liées, les hashmaps et les arbres binaires ( dart:collection)
+-  Encodeurs et décodeurs pour la conversion entre différentes représentations de données, y compris JSON et UTF-8 ( dart:convert)
+Constantes et fonctions mathématiques et génération de nombres aléatoires ( dart:math)
+-  Prise en charge des fichiers, sockets, HTTP et autres E/S pour les applications non Web ( dart:io)
+-  Prise en charge de la programmation asynchrone, avec des classes telles que Futureet Stream ( dart:async)
+-  Listes qui gèrent efficacement les données de taille fixe (par exemple, les entiers non signés de 8 octets) et les types numériques SIMD ( dart:typed_data)
+-  Interfaces de fonctions étrangères pour l'interopérabilité avec d'autres codes qui présentent une interface de style C ( dart:ffi)
+-  Programmation simultanée à l'aide d'isolats - des travailleurs indépendants similaires aux threads mais ne partageant pas de mémoire, communiquant uniquement via des messages ( dart:isolate)
+-  Éléments HTML et autres ressources pour les applications Web qui doivent interagir avec le navigateur et le modèle d'objet de document (DOM) ( dart:html)
+
+Au-delà des bibliothèques principales, de nombreuses API sont fournies via un ensemble complet de packages. L'équipe Dart publie de nombreux packages supplémentaires utiles, tels que ceux-ci :
+
+  -  personnages
+  -  international
+  -  http
+  -  crypto
+  -  réduction
+
+De plus, les éditeurs tiers et la communauté au sens large publient des milliers de packages, avec prise en charge de fonctionnalités telles que celles-ci :
+
+  -  XML
+  -  Intégration Windows
+  -  SQLiteName
+  -  compression
+
+Pour voir une série d'exemples de travail mettant en vedette les bibliothèques principales de Dart, faites le tour de la bibliothèque . Pour trouver des API supplémentaires, consultez la page des packages couramment utilisés .
