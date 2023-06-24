@@ -132,3 +132,23 @@ Gestion des isolats : le runtime Dart contrôle l'isolat principal (où le code 
 
 Sur les plates-formes natives, le runtime Dart est automatiquement inclus dans des exécutables autonomes et fait partie de la machine virtuelle Dart fournie par la dart runcommande.
 
+
+# Installation de Dart
+Il existe plusieurs façons d'installer une fléchette sur votre système. Vous pouvez installer Dart sur Windows, Mac et Linux ou l'exécuter à partir du navigateur.
+
+## Exigences
+SDK de Dart ,
+Code VS ou d'autres éditeurs comme Andoid studio, Intellij [Nous utiliserons VS Code ici].
+
+## Installation de Windows Dart
+
+Suivez les instructions ci-dessous pour installer une fléchette sur le système d'exploitation Windows.
+
+Etapes:
+
+T-  éléchargez le SDK Dart à partir <a href=" https://dart.dev/get-dart/archive/" target="_blank">d'ici</a>.
+-  Copiez le dossier dart-sdk sur votre lecteur C.
+-  Ajoutez C:\dart-sdk\bin à votre variable d'environnement. Regardez la vidéo ci-dessous pour être plus clair.
+-  Ouvrez l'invite de commande et tapezdart --versionpour le vérifier.
+-  InstallerCode VSet Ajouter une extension de fléchette.
+
